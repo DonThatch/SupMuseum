@@ -6,7 +6,7 @@ import AboutUs from "../page/AboutUs.jsx";
 import ContactPage from "../page/ContactPage.jsx";
 import NotFoundPage from "../page/NotFoundPage.jsx";
 
-export function Router() {
+export function MyRoutes() {
     return (
         <Routes>
             <Route path="/" element={<App />} />
@@ -19,4 +19,4 @@ export function Router() {
     );
 }
 
-export default Router;
+export default MyRoutes;
