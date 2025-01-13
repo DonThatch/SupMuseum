@@ -1,0 +1,52 @@
+.ArticleOfTheWeekCard{
+    display: flex;
+    flex-direction: column;
+    max-width: 240px;
+    width: 240px;
+    height: 400px;
+    margin-right: 48px;
+    text-wrap: pretty;
+}
+
+#ArticleOfTheWeek::-webkit-scrollbar {
+    height: 4px;
+}
+
+#ArticleOfTheWeek::-webkit-scrollbar-thumb {
+    background-color:  #F6B27A;
+    border-radius: 4px;
+}
+
+#ArticleOfTheWeek::-webkit-scrollbar-track {
+    background-color: #1A1A1A;
+    border-radius: 4px;
+}
+
+.ArticleOfTheWeekCard img {
+    border-radius: 300px 300px 0 0;
+    height: 300px;
+    pointer-events: none;
+}
+.ArticleOfTheWeekCard p, h4 {
+    margin: 0;
+    text-align: start;
+    max-width: 240px
+}
+p{
+    font-size: 11px;
+}
+#ArticleOfTheWeek{
+    display: flex;flex-direction: row;
+    align-content: center;
+    margin-left: 5%;
+    margin-bottom: 10%;
+    overflow: auto;
+    white-space: nowrap;
+    width: 90%;
+    height: fit-content;
+
+}
+h2{
+    margin-left: 72px;
+    text-align: start;
+}

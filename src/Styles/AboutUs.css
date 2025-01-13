@@ -1,0 +1,39 @@
+.aboutUsContainer {
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.aboutUsContainer h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333333;
+    text-align: left;
+}
+
+.aboutUsContainer h2 {
+    font-size: 2rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #333333;
+    margin-left: 0;
+    text-align: left;
+}
+
+.aboutUsContainer p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #555555;
+}
+
+.aboutUsContainer a {
+    color: #F6B27A;
+    text-decoration: none;
+}
+
+.aboutUsContainer a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,102 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    min-height: 50em;
+    justify-items: center;
+}
+#Articles{
+    min-height: 50em;
+}
+
+#sortBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    background-color: #f8f8f8;
+    gap: 15px;
+}
+
+#sortBar input[type="text"],
+#sortBar select {
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+#sortBar label {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+
+#sortBar > * {
+    margin-right: 15px;
+}
+
+
+#sortBar > *:last-child {
+    margin-right: 0;
+}
+
+
+#sortBar input[type="text"]:hover,
+#sortBar select:hover,
+#sortBar label:hover {
+    border-color: #ccc;
+}
+
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-container input[type="text"] {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.search-container button {
+    border: 1px solid #ddd;
+    border-left: none;
+    background-color: #f0ad4e;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: #ec971f;
+}
+@media screen and (max-width: 1024px) {
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+        align-content: center;
+    }
+
+    #sortBar {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: baseline;
+    }
+}
+@media screen and (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 480px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,27 @@
+.not-found-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.not-found-container h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #FF6347;
+}
+
+.not-found-container p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.home-link {
+    font-size: 20px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.home-link:hover {
+    text-decoration: underline;
+}
